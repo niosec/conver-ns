@@ -22,13 +22,13 @@ body {
 h1 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 15px;
     background-color: #f8f9fa;
     border-radius: 8px;
@@ -37,7 +37,6 @@ h1 {
 label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold;
     color: #2c3e50;
 }
 
@@ -68,8 +67,8 @@ button:hover {
 }
 
 .result {
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 10px;
     background-color: #f8f9fa;
     border-radius: 8px;
     border-left: 5px solid #3498db;
@@ -77,15 +76,14 @@ button:hover {
 }
 
 .result-title {
-    font-weight: bold;
     margin-bottom: 10px;
     color: #2c3e50;
 }
 
 .conversion {
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0;
-    padding: 10px;
+    padding: 5px;
     background-color: #e8f4fc;
     border-radius: 4px;
 }
@@ -93,7 +91,7 @@ button:hover {
 .unit-options {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 10px;
 }
 
 .unit-column {
@@ -106,6 +104,8 @@ button:hover {
 
 .unit-option {
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
 }
 
 .unit-option label {
